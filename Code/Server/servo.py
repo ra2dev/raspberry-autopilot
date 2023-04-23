@@ -34,8 +34,8 @@ if __name__ == '__main__':
     pwm=Servo()
     while True:
         try :
-            pwm.setServoPwm('0',45)
-            pwm.setServoPwm('1',45)
+            pwm.setServoPwm('0',44)
+            pwm.setServoPwm('1',44)
         except KeyboardInterrupt:
             print ("\nEnd of program")
             break
