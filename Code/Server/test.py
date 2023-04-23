@@ -75,10 +75,10 @@ from servo import *
 pwm=Servo()
 def test_Servo():
     try:
-        pwm.setServoPwm('1', 180)
+        pwm.setServoPwm('7', 180)
         time.sleep(1.0)
     except KeyboardInterrupt:
-        pwm.setServoPwm('1',180)
+        pwm.setServoPwm('7',180)
         print ("\nEnd of program")
         
         
