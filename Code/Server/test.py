@@ -80,7 +80,7 @@ def test_Servo():
                 pwm.setServoPwm('0', i)
                 time.sleep(0.01)
     except KeyboardInterrupt:
-        pwm.setServoPwm('0',0)
+        pwm.setServoPwm('0', -45)
         print ("\nEnd of program")
         
         
