@@ -76,7 +76,7 @@ pwm=Servo()
 def test_Servo():
     try:
         while True:
-            for i in range(0,180):
+            for i in range(0,10):
                 pwm.setServoPwm('0',i)
                 time.sleep(0.01)
     except KeyboardInterrupt:
@@ -121,7 +121,7 @@ def test_Buzzer():
 # Main program logic follows:
 if __name__ == '__main__':
 
-    print ('Program is starting ... ')
+    print ('Program is starting 2 ... ')
     import sys
     if len(sys.argv)<2:
         print ("Parameter error: Please assign the device")
